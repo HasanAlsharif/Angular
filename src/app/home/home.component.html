@@ -1,0 +1,30 @@
+<div class="home">
+  <!-- <p>HOME works!</p> -->
+
+  <p>HOMEEEE Component</p>
+
+  <p>Hiii</p>
+
+  <button (click)="show = !show">{{show ? 'hide' : 'show'}}</button>
+   <br>
+  <div *ngIf="show">HEEEEEEEY</div>
+
+
+
+
+
+</div>
+
+
+ <!-- iterate over an array using ngFor directive 
+  <ul *ngFor='let fdfodeh of favFoods; let i=index'>
+    <li>{{i}}. {{fdfodeh}}</li>
+    <button (click)='showFood(fdfodeh)'> CLICK ME !</button>
+  </ul>
+-->
+
+  <!-- ngModel will bind the input value with the email attribute
+
+  <input type="text" [(ngModel)]="email" />
+  <!-- when the email attribute changes it will update the email value in the html -->
+  <!-- <p>EMAIL: {{email}}</p>  -->
